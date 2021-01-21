@@ -1,5 +1,5 @@
 body{
-    background-image: url("/img/joel-muniz-XqXJJhK-c08-unsplash.jpg");
+    background-image: url("./img/joel-muniz-XqXJJhK-c08-unsplash.jpg");
     background-size: cover;
     background-blend-mode: darken;
     padding: 0px;
@@ -67,7 +67,7 @@ body{
 .content span{
     color: white;
     font-family: sans-serif;
-    display: block;
+    display: inline-block;
 }
 
 .box{
@@ -83,6 +83,16 @@ body{
 .box p{
     font-size: 10px;
     padding-left: 20px;
+}
+
+.social-links{
+    float: right;
+}
+
+.social-links img{
+    height: 20px;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
 }
 
 .footer{
