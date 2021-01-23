@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="./css/login-stylesheet.css">
+    <link rel="stylesheet" href="../css/login-stylesheet.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="img/baby-book.svg" alt="">
+            <img src="../img/baby-book.svg" alt="">
         </div>
     
         <div class="menu">
             <ul class="nav-bar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Books</a></li>
+                <li><a href="../index_page.php">Home</a></li>
+                <li><a href="book_page.php">Books</a></li>
                 <li><a href="">Category</a></li>
-                <li class="active"><a href="login.html">Login</a></li>
-                <li><a href="register.html">Register</a></li>
+                <li class="active"><a href="/">Login</a></li>
+                <li><a href="register_page.php">Register</a></li>
             </ul>
         </div>
 
         <div class="search">
-            <img src="img/search.svg" alt="" style="width: 50px;">
+            <img src="../img/search.svg" alt="" style="width: 50px;">
         </div>
         <div class="lines">
         </div>
     </header>
 
     <main>
-        <form action="" class="login">
+        <form method="POST" action="../php/login.php" class="login">
             <h1>Login</h1>
+            <?php
+                if (isset($_GET['error'])){?>
+                    <p class="error"><?php echo $_GET['error']; ?></p>    
+            <?php } ?>
             <label>User Name</label>
             <input type="text" name="username">
 
@@ -41,7 +45,7 @@
             <input type="submit" value="Login"><br>
 
             <label for="login">Don't have an account?</label>
-            <a href="register.html">Register</a>
+            <a href="register_page.php">Register</a>
         </form>
     </main>
 </body>
