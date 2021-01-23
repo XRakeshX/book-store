@@ -23,7 +23,7 @@
         </div>
 
         <div class="search">
-            <img src="../img/search.svg" alt="" style="width: 50px;">
+            <img src="../img/cart.png" alt="" style="width: 50px;">
         </div>
         <div class="lines">
         </div>

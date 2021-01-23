@@ -68,7 +68,7 @@ h2{
     margin-top: 50px;
 }
 .content{
-    background: rgba(225,225,225,.5);
+    background: rgba(225,225,225,.9);
     margin-top: 20px;
     border-radius: 20px;
     transform: translate(15%,0%);
