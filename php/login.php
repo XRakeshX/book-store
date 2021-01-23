@@ -21,11 +21,16 @@
                 $result = mysqli_query($conn,$retrivedata);
 
                 if(mysqli_num_rows($result)==1){
+                    session_start();
+                    $_SESSION['loggedin'] = true;
+                    $_SESSION['username'] = $username;
                     header("Location: ../index_page.php");
+                    exit();
                 }
 
                 else{
                     header("Location: ../pages/login_page.php?error=Invalid Credentils");
+                    exit();
                 }
         }
     }

@@ -18,16 +18,24 @@
     
         <div class="menu">
             <ul class="nav-bar">
-                <li class="active"><a href="/">Home</a></li>
+                <li class="active"><a href="index_page.php">Home</a></li>
                 <li><a href="./pages/book_page.php">Books</a></li>
                 <li><a href="">Category</a></li>
+
+                <?php
+                session_start();
+                if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){?>
+                    <li><a><?php echo "Welcome, ".$_SESSION['username'];?> </a></li> 
+                    <li><a href="./php/logout.php">Logout</a></li>
+            <?php } else{?>
                 <li><a href="./pages/login_page.php">Login</a></li>
                 <li><a href="./pages/register_page.php">Register</a></li>
+                <?php } ?>
             </ul>
         </div>
 
         <div class="search">
-            <img src="img/cart.png" alt="" style="width: 50px;">
+            <img src="img/cart.png" alt="" style="width: 30px; height: 20px;">
         </div>
         <div class="lines">
         </div>
@@ -41,9 +49,9 @@
                 they are the most accessible and wisest of cunselors,<br> 
                 and most patient of teachers.
             </span>
-            <a href="">
+            <a href="./php/auth.php">
                 <div class="box">
-                    <p>SHOP NOW ---> </p>
+                    <p>SHOP NOW -> </p>
                 </div>
             </a>
         </div>
@@ -64,37 +72,34 @@
             <a href="https://www.facebook.com">
                 <img src="img/005-twitter.svg" alt="">
             </a>
-            
-
-            
         </div>
     </main>
     
     <footer>
         <div class="footer">
             <div class="one">
-                <a href="https://www.github.com/XRakeshX">
+                <a href="./php/auth.php">
                     <img src="img/startup.jpg" alt="">
                     <p>The $100 <br> startup</p>
                     <span>Chris<br>Guillabeau</span>
                 </a>
             </div> 
             <div class="two">
-                <a href="">
+                <a href="./php/auth.php">
                     <img src="img/egois.jpg" alt="">
                     <p>Ego is the <br> enemy</p>
                     <span>Ryan <br> Holiday</span>
                 </a>
             </div>
             <div class="three">
-                <a href="">
+                <a href="./php/auth.php">
                     <img src="img/powerofnow.jpg" alt="">
                     <p>The power of now</p>
                     <span>Eckhart <br> Tolle</span>
                 </a>
             </div>
             <div class="four">
-               <a href="">
+               <a href="./php/auth.php">
                    <img src="img/storybrand.jpg" alt="">
                    <p>Buildilng a brand story</p>
                    <span>Donald <br> Miller</span>

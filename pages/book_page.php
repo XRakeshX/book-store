@@ -16,10 +16,17 @@
         <div class="menu">
             <ul class="nav-bar">
                 <li><a href="../index_page.php">Home</a></li>
-                <li class="active"><a href="/">Books</a></li>
+                <li class="active"><a href="book_page.php">Books</a></li>
                 <li><a href="">Category</a></li>
-                <li><a href="login_page.php">Login</a></li>
-                <li><a href="register_page.php">Register</a></li>
+                <?php
+                session_start();
+                if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){?>
+                    <li><a><?php echo "Welcome, ".$_SESSION['username'];?> </a></li> 
+                    <li><a href="./php/logout.php">Logout</a></li>
+            <?php } else{?>
+                <li><a href="./pages/login_page.php">Login</a></li>
+                <li><a href="./pages/register_page.php">Register</a></li>
+                <?php } ?>
             </ul>
         </div>
 
