@@ -23,8 +23,8 @@
                     <li><a><?php echo "Welcome, ".$_SESSION['username'];?> </a></li> 
                     <li><a href="./php/logout.php">Logout</a></li>
             <?php } else{?>
-                <li><a href="./pages/login_page.php">Login</a></li>
-                <li><a href="./pages/register_page.php">Register</a></li>
+                <li><a href="login_page.php">Login</a></li>
+                <li><a href="register_page.php">Register</a></li>
                 <?php } ?>
             </ul>
         </div>
