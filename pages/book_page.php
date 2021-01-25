@@ -36,111 +36,159 @@
         <div class="lines">
         </div>
     </header>
+    
+    <h2>Books:</h2>
 
     <main>
-        <h2>Books:</h2>
-        <div class="content">
             <div class="first">
                 <div id="one">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
 
                 <div id="two">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
 
                 <div id="three">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
 
                 <div id="four">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
             </div>
-            <div class="second">
+
+            <div class="first">
                 <div id="one">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
 
                 <div id="two">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
 
                 <div id="three">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
 
                 <div id="four">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
             </div>
-            <div class="third">
+
+            <div class="first">
                 <div id="one">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
 
                 <div id="two">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
 
                 <div id="three">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
 
                 <div id="four">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
+                    <img src="../img/egois.jpg" alt="">
+
+                    <div class="add">
+                        <a href="order_page.php">ADD TO CART</a>
+                    </div>
+
+                    <div class="buy">
+                        <a href="order_page.php">BUY NOW</a>
+                    </div>
                 </div>
             </div>
-            <div class="four">
-                <div id="one">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
-                </div>
-
-                <div id="two">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
-                </div>
-
-                <div id="three">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
-                </div>
-
-                <div id="four">
-                    <a href="">
-                        <img src="../img/egois.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
     </main>
 </body>
 <html>

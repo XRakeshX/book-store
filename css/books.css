@@ -1,5 +1,5 @@
 body{
-    background-image: url("../img/rhema-kallianpur-2W3bDp7K1oQ-unsplash.jpg");
+    background-image: url("../img/bookbg.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: darken;
@@ -67,28 +67,29 @@ h2{
     margin-left: 60px;
     margin-top: 50px;
 }
-.content{
+main{
     background: rgba(225,225,225,.9);
     margin-top: 20px;
     border-radius: 20px;
-    transform: translate(15%,0%);
+    transform: translate(17%,0%);
     display: inline-block;
     scroll-behavior: smooth;
 }
 
+.two{
+    display: block;
+}
 #one,#two,#three,#four{
-    display: inline;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
 }
 
-#one img,#two img,#three img,#four img{
-    width: 100px;
-    margin-right: 120px;
-    margin-top: 30px;
-    display: inline;
+.add{
+    background: black;
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+    margin-left: 30px;
 }
-
-
-
-
-
-

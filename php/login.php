@@ -17,7 +17,7 @@
         }
 
         else{
-                $retrivedata = "SELECT * FROM registration where username='$username';";
+                $retrivedata = "SELECT * FROM registration WHERE username='$username' AND password='$password';";
                 $result = mysqli_query($conn,$retrivedata);
 
                 if(mysqli_num_rows($result)==1){
