@@ -20,7 +20,6 @@
             <ul class="nav-bar">
                 <li class="active"><a href="index_page.php">Home</a></li>
                 <li><a href="./pages/book_page.php">Books</a></li>
-                <li><a href="">Category</a></li>
 
                 <?php
                 session_start();
@@ -35,7 +34,7 @@
         </div>
 
         <div class="search">
-            <img src="img/cart.png" alt="" style="width: 30px; height: 20px;">
+            <a href="./php/authcart.php"><img src="img/cart.png" alt="" style="width: 40px; height: 40px;"></a>        
         </div>
         <div class="lines">
         </div>
@@ -78,28 +77,28 @@
     <footer>
         <div class="footer">
             <div class="one">
-                <a href="./php/auth.php">
+                <a href="./pages/book_page.php">
                     <img src="img/startup.jpg" alt="">
                     <p>The $100 <br> startup</p>
                     <span>Chris<br>Guillabeau</span>
                 </a>
             </div> 
             <div class="two">
-                <a href="./php/auth.php">
+                <a href="./pages/book_page.php">
                     <img src="img/egois.jpg" alt="">
                     <p>Ego is the <br> enemy</p>
                     <span>Ryan <br> Holiday</span>
                 </a>
             </div>
             <div class="three">
-                <a href="./php/auth.php">
+                <a href="./pages/book_page.php">
                     <img src="img/powerofnow.jpg" alt="">
                     <p>The power of now</p>
                     <span>Eckhart <br> Tolle</span>
                 </a>
             </div>
             <div class="four">
-               <a href="./php/auth.php">
+               <a href="./pages/book_page.php">
                    <img src="img/storybrand.jpg" alt="">
                    <p>Buildilng a brand story</p>
                    <span>Donald <br> Miller</span>

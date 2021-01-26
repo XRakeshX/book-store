@@ -16,7 +16,6 @@
             <ul class="nav-bar">
                 <li><a href="../index_page.php">Home</a></li>
                 <li><a href="book_page.php">Books</a></li>
-                <li><a href="">Category</a></li>
                 <?php
                 session_start();
                 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){?>
@@ -30,7 +29,7 @@
         </div>
 
         <div class="search">
-            <img src="../img/cart.png" alt="" style="width: 50px;">
+            <a href="../php/authcart.php"><img src="../img/cart.png" alt="" style="width: 50px;"></a>        
         </div>
         <div class="lines">
         </div>

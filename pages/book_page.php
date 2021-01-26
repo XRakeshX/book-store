@@ -17,7 +17,6 @@
             <ul class="nav-bar">
                 <li><a href="../index_page.php">Home</a></li>
                 <li class="active"><a href="book_page.php">Books</a></li>
-                <li><a href="">Category</a></li>
                 <?php
                 session_start();
                 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){?>
@@ -31,37 +30,35 @@
         </div>
 
         <div class="search">
-            <img src="../img/cart.png" alt="" style="width: 50px;">
+            <a href="../php/authcart.php"><img src="../img/cart.png" alt="" style="width: 50px;"></a>        
         </div>
         <div class="lines">
         </div>
     </header>
-    
     <h2>Books:</h2>
-
     <main>
             <div class="first">
                 <div id="one">
                     <img src="../img/egois.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
 
                 <div id="two">
-                    <img src="../img/egois.jpg" alt="">
+                    <img src="../img/powerofnow.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
 
@@ -69,61 +66,61 @@
                     <img src="../img/egois.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
 
                 <div id="four">
-                    <img src="../img/egois.jpg" alt="">
+                    <img src="../img/startup.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
             </div>
 
             <div class="first">
                 <div id="one">
-                    <img src="../img/egois.jpg" alt="">
+                    <img src="../img/powerofnow.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
 
                 <div id="two">
-                    <img src="../img/egois.jpg" alt="">
+                    <img src="../img/storybrand.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
 
                 <div id="three">
-                    <img src="../img/egois.jpg" alt="">
+                    <img src="../img/startup.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
 
@@ -131,25 +128,25 @@
                     <img src="../img/egois.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
             </div>
 
             <div class="first">
                 <div id="one">
-                    <img src="../img/egois.jpg" alt="">
+                    <img src="../img/storybrand.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
 
@@ -157,35 +154,35 @@
                     <img src="../img/egois.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
 
                 <div id="three">
-                    <img src="../img/egois.jpg" alt="">
+                    <img src="../img/powerofnow.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
 
                 <div id="four">
-                    <img src="../img/egois.jpg" alt="">
+                    <img src="../img/storybrand.jpg" alt="">
 
                     <div class="add">
-                        <a href="order_page.php">ADD TO CART</a>
+                        <a href="../php/authorder.php">ADD TO CART</a>
                     </div>
 
                     <div class="buy">
-                        <a href="order_page.php">BUY NOW</a>
+                        <a href="../php/authorder.php">BUY NOW</a>
                     </div>
                 </div>
             </div>
