@@ -12,7 +12,7 @@
 
  else{
 
-    $query = "CREATE DATABASE book-store";
+    $query = "CREATE DATABASE book-store;";
     
     $result = mysqli_query($conn,$query);
     if($result){
