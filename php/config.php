@@ -2,6 +2,6 @@
     $username='root';
     $servername='localhost';
     $password='';
-    $databasename='book-store';
+    $databasename='bookstore';
     $conn = mysqli_connect($servername,$username,$password,$databasename);
 ?>

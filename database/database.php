@@ -12,7 +12,7 @@
 
  else{
 
-    $query = "CREATE DATABASE book-store;";
+	 $query = "CREATE DATABASE bookstore";
     
     $result = mysqli_query($conn,$query);
     if($result){
@@ -22,7 +22,7 @@
         echo "Error in creating database<br>";
     }
     
-    $result1 = mysqli_select_db($conn,"book-store");
+    $result1 = mysqli_select_db($conn,"bookstore");
     if($result1){
         echo "Database selected <br>";
     }
